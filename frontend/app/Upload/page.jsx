@@ -30,7 +30,7 @@ export default function FileUploadDemo() {
 
     try {
       const res = await axios.post(
-        "http://localhost:58080/api/resume/upload",
+        `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/resume/upload`,
         formData,
         {
           headers: {
