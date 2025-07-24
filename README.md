@@ -91,7 +91,7 @@ resume-analyzer/
    npm start
    ```
 
-   Server will run at: `http://localhost:5000`
+   Server will run at: `https://deepklarity-assignment.onrender.com`
 
 5. Sample resumes for testing are stored in `sample_data/` folder.
 
@@ -114,7 +114,7 @@ resume-analyzer/
 3. Setup your `.env.local` file:
 
    ```env
-   NEXT_PUBLIC_BACKEND_URL=http://localhost:5000/api
+   NEXT_PUBLIC_BACKEND_URL=https://deepklarity-assignment.onrender.com/api
    ```
 
 4. Run the frontend:
