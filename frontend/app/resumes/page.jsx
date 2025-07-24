@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import axios from "axios";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -29,6 +30,7 @@ export default function ResumeListPage() {
       </h1>
       {resumes.length <= 0 && (
         <div className="flex h-screen flex-col justify-center items-center">
+          <Image src="/noitems.jpg" alt="no resumes" height={300} width={300} />
           <p className="text-3xl font-bold mb-8 text-center text-gray-800 dark:text-gray-100">
             No previous resumes available
           </p>
