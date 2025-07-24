@@ -18,6 +18,7 @@ The **Resume Analyzer** is a full-stack web application that uses AI (Gemini API
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **Next.js 14** (App Router)
 - **React**
 - **Tailwind CSS**
@@ -25,6 +26,7 @@ The **Resume Analyzer** is a full-stack web application that uses AI (Gemini API
 - **Lucide-React** & **Tabler Icons** (for UI icons)
 
 ### Backend
+
 - **Node.js + Express**
 - **PostgreSQL**
 - **Multer** (for file uploads)
@@ -123,7 +125,7 @@ resume-analyzer/
    npm run dev
    ```
 
-   App will run at: `http://localhost:3000`
+   App will run at: `https://deep-klarity-assignment.vercel.app/`
 
 ---
 
@@ -158,16 +160,17 @@ All UI screenshots are stored inside the `screenshots/` folder. You can use them
 
 ---
 
-## 📦 Deployment 
+## 📦 Deployment
 
 If you plan to deploy:
+
 - Used **Railway**, **Vercel** for backend and frontend separately
 - Added environment variables in respective dashboards
 - Ensured CORS is configured properly
 
 ---
 
-## 📌  Improvements
+## 📌 Improvements
 
 - Enable PDF preview UI
 - Improve Gemini prompts
